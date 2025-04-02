@@ -1,0 +1,10 @@
+Detectamos um aumento incomum no tráfego de rede nas últimas 24 horas.
+Recebemos um e-mail suspeito pedindo credenciais de login.
+O sistema identificou múltiplas tentativas de acesso falhas de um mesmo IP.
+Usuários relataram que suas contas foram comprometidas após um ataque de phishing.
+O antivírus bloqueou um malware disfarçado de documento PDF.
+A autenticação multifator ajudou a prevenir um possível ataque de força bruta.
+Detectamos uma comunicação não autorizada entre dispositivos internos e um servidor externo.
+A criptografia dos dados impediu que invasores acessassem informações confidenciais.
+Um ransomware criptografou arquivos críticos e está exigindo pagamento em Bitcoin.
+Os logs mostram um comportamento anômalo que pode indicar um movimento lateral na rede.

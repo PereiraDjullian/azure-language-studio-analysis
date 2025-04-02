@@ -1,0 +1,177 @@
+{
+    "documents": [
+        {
+            "id": "id__1163",
+            "sentiment": "negative",
+            "confidenceScores": {
+                "positive": 0.01,
+                "neutral": 0.05,
+                "negative": 0.94
+            },
+            "sentences": [
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.99,
+                        "negative": 0.01
+                    },
+                    "offset": 0,
+                    "length": 71,
+                    "text": "Detectamos um aumento incomum no tráfego de rede nas últimas 24 horas.  ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0,
+                        "negative": 1
+                    },
+                    "offset": 71,
+                    "length": 59,
+                    "text": "Recebemos um e-mail suspeito pedindo credenciais de login.  ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0,
+                        "negative": 1
+                    },
+                    "offset": 130,
+                    "length": 76,
+                    "text": "O sistema identificou múltiplas tentativas de acesso falhas de um mesmo IP.  ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0,
+                        "negative": 1
+                    },
+                    "offset": 206,
+                    "length": 83,
+                    "text": "Usuários relataram que suas contas foram comprometidas após um ataque de phishing.  ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.05,
+                                "negative": 0.95
+                            },
+                            "offset": 237,
+                            "length": 6,
+                            "text": "contas",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/3/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.05,
+                                "negative": 0.95
+                            },
+                            "offset": 250,
+                            "length": 13,
+                            "text": "comprometidas",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0,
+                        "negative": 1
+                    },
+                    "offset": 289,
+                    "length": 61,
+                    "text": "O antivírus bloqueou um malware disfarçado de documento PDF.  ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.05,
+                        "neutral": 0,
+                        "negative": 0.95
+                    },
+                    "offset": 350,
+                    "length": 79,
+                    "text": "A autenticação multifator ajudou a prevenir um possível ataque de força bruta.  ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.14,
+                        "negative": 0.86
+                    },
+                    "offset": 429,
+                    "length": 93,
+                    "text": "Detectamos uma comunicação não autorizada entre dispositivos internos e um servidor externo.  ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.24,
+                        "negative": 0.75
+                    },
+                    "offset": 522,
+                    "length": 85,
+                    "text": "A criptografia dos dados impediu que invasores acessassem informações confidenciais.  ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.01,
+                        "negative": 0.99
+                    },
+                    "offset": 607,
+                    "length": 83,
+                    "text": "Um ransomware criptografou arquivos críticos e está exigindo pagamento em Bitcoin.  ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.98,
+                        "negative": 0.02
+                    },
+                    "offset": 690,
+                    "length": 87,
+                    "text": "Os logs mostram um comportamento anômalo que pode indicar um movimento lateral na rede.",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2025-01-01"
+}
